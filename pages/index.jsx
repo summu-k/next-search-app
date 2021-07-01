@@ -48,7 +48,7 @@ export default function Home(initialData) {
             return(
               <div key={index}>
                 <h3>{data.title}</h3>
-                <img src={data.images.original.url}></img>
+                <Image src={data.images.original.url} alt="Vercel Logo" width={360} height={250} />              
               </div>
             ) 
         })
